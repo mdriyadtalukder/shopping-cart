@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1 class="text-center fw-bold pt-4 text-info pb-4">My Shopping Cart</h1>
+    </header>
+    <main class="">
+        <section class="container bg pt-5 pb-5">
+
+            <div class="row r">
+                <div class="col col-lg-6">
+                    <div class="d-flex justify-content-evenly">
+                        <img src="images/product-1.png" class="img-fluid w" alt="">
+                        <h5 class="ti">iPhone 11 128GB Black</h5>
+                    </div>
+                </div>
+                <div class="col col-lg-6 ">
+                    <div class="d-flex justify-content-evenly">
+                        <div class="tii">
+                            <button id="minus" class="bt fs-4"><i class="fa-solid fa-minus "></i></button>
+                            <input id="inp" min="0" value="1" type="number" class="in fw-bold">
+                            <button id="plus" class="bt fs-4"><i class="fa-solid fa-plus "></i></button>
+                        </div>
+                        <div class="ti">
+                            <h5>$<span id="tk">1234</span></h5>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-xmark text-danger ic"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="rr" class="row r mt-4">
+                <div class="col col-lg-6">
+                    <div class="d-flex justify-content-evenly">
+                        <img src="images/product-2.png" class="img-fluid w" alt="">
+                        <h5 class="ti">iPhone 11 Silicone Case - Black</h5>
+                    </div>
+                </div>
+                <div class="col col-lg-6 ">
+                    <div class="d-flex justify-content-evenly">
+                        <div class="tii">
+                            <button id="minus2" class="bt fs-4"><i class="fa-solid fa-minus "></i></button>
+                            <input id="inp2" min="0" value="1" type="number" class="in fw-bold">
+                            <button id="plus2" class="bt fs-4"><i class="fa-solid fa-plus "></i></button>
+                        </div>
+                        <div class="ti">
+                            <h5>$<span id="tk2">59</span></h5>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-xmark text-danger ic"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="pt" class="r mt-4">
+                <div class="d-flex justify-content-between">
+                    <h5>Subtotal:</h5>
+                    <h5>$<span id="sub">1234</span></h5>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <h5>Tax:</h5>
+                    <h5>$<span id="tx">0</span></h5>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <h5>Total:</h5>
+                    <h5>$<span id="tot">1234</span></h5>
+                </div>
+            </div>
+            <div class="mt-4 text-end bn ">
+                <button id="btnn" type="button" class="btn btn-info text-white">Check Out</button>
+            </div>
+        </section>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

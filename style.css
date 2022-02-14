@@ -1,0 +1,45 @@
+.ti{
+    padding-top: 50px;
+}
+.tii{
+    padding-top: 43px;
+}
+.ic{
+    font-size: 40px;
+    padding-top: 44px;
+}
+#pt{
+    padding-left: 140px;
+    padding-right: 200px;
+}
+.w{
+    width: 18%;
+}
+.bn{
+    padding-right: 95px;
+}
+.bg{
+    background-color: #8b008b11;
+}
+.in{
+    width: 65px;
+    height:45px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #86838310;
+    background-color: #86838310;
+}
+.r{
+ background-color: white;
+    margin-left: 90px;
+    margin-right: 90px;
+    border-radius: 20px;
+    padding: 10px;
+}
+#rr{
+    padding-left: 48px;
+}
+.bt{
+    background-color: white;
+    border: 1px solid white;
+}
